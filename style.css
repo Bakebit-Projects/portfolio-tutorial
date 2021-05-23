@@ -1,8 +1,66 @@
-h1 {
-  color: blue;
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-p {
-  font-size: 1.25rem;
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+/* layout */
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* navbar */
+.navbar {
+  background-color: #126e82;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-size: 1.75rem;
+  /* 1rem = 16px */
+  font-weight: 700;
+  text-decoration: none;
+  color: #fefefe;
+  background-color: #51c4d3;
+  padding: 1px 4px;
+  margin: 6px 0;
+  border: 1px solid #fefefe;
+  border-right-width: 5px;
+  border-bottom-width: 5px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-item .nav-link {
+  text-decoration: none;
+  color: #f0f5f6;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.19s ease-in;
+}
+
+.nav-link:hover {
+  background-color: #51c4d3;
+  color: #fefefe;
+  border-radius: 3px;
 }

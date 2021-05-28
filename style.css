@@ -155,3 +155,64 @@ body {
 .hero-content .btn {
   padding: 0.6rem 2rem;
 }
+
+/* skill */
+#skills {
+  padding: 3rem 0 2rem;
+  background: linear-gradient(180deg, #f0f5f6 0%, #51c4d3 50%, #f0f5f6 100%);
+}
+
+.skill-container .row {
+  align-items: flex-start;
+}
+
+.skill-container .col {
+  flex-basis: 40%;
+  width: 40%;
+}
+
+.skill-col {
+  flex-basis: 60%;
+  width: 60%;
+}
+
+.skill-content {
+  padding: 1rem 2rem;
+  color: #132c33;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.skill-item i {
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  background-color: #ffd622;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.skill-details h4 {
+  text-transform: uppercase;
+}
+
+.skill-details h4,
+p {
+  margin: 0;
+  color: #132c33;
+}
+
+.skill-img {
+  padding: 3rem;
+  background: url('images/blob2.svg') no-repeat center;
+}
+
+.skill-img img {
+  width: 100%;
+  height: auto;
+}

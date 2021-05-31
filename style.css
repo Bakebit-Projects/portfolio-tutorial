@@ -270,3 +270,78 @@ p {
 .project-item p:hover {
   color: #126e82;
 }
+
+/* clients */
+#clients {
+  padding: 3rem 0 2rem;
+  background: linear-gradient(180deg, #f0f5f6 0%, #51c4d3 50%, #f0f5f6 100%);
+}
+
+.c-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.client-box {
+  width: 310px;
+  height: fit-content;
+  background-color: #f0f5f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all ease-in-out 0.2s;
+}
+
+.client-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.star {
+  display: flex;
+  margin: 10px 0;
+}
+
+.star i {
+  color: #ffd622;
+}
+
+.client-box p {
+  color: #747474;
+  font-size: 0.9rem;
+  margin: 0px;
+  text-align: center;
+  display: block;
+  padding: 0.5rem;
+  transition: 0.2s ease-in;
+}
+
+.client-box a.btn {
+  background-color: #126e82;
+  width: 140px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.client-box .btn:hover {
+  background-color: #132c33;
+}
+
+.client-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #51c4d3;
+}
+
+.client-box:hover p {
+  color: #fefefe;
+}
